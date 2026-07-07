@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===== SEO ===== -->
+  <title>KapRich — Professional Auto Care & Car Parts | Cartown, CT</title>
+  <meta name="description" content="KapRich offers expert car servicing, brake repair, engine diagnostics, oil changes, and OEM auto parts in Cartown, CT. Book online. Certified technicians. Best prices guaranteed.">
+  <meta name="keywords" content="auto repair, car service, oil change, brake repair, engine diagnostics, car parts, tire replacement, auto shop, Cartown CT, AutoElite">
+  <meta name="author" content="K">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.kaprich.co.zw/">
+
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.kaprich.com/">
+  <meta property="og:title" content="KapRich — Professional Auto Care You Can Trust">
+  <meta property="og:description" content="Expert car servicing, repairs & genuine auto parts in Cartown, CT. Book your appointment online today.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1200&q=80">
+  <meta property="og:site_name" content="KapRich">
+
+  <!-- ===== Twitter Card ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="KapRich — Professional Auto Care">
+  <meta name="twitter:description" content="Expert car servicing, repairs & genuine auto parts. Book online now.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1200&q=80">
+
+  <!-- ===== JSON-LD: LocalBusiness ===== -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"AutoRepair",
+    "name":"KapRich",
+    "description":"Professional auto care: oil changes, brake repair, engine diagnostics, tire replacement and genuine car parts.",
+    "url":"https://www.kaprich.co.zw",
+    "telephone":"+263783249998",
+    "email":"service@kaprich.co.zw",
+    "address":{"@type":"PostalAddress","streetAddress":"123 Budiriro 3","addressLocality":"Harare","addressRegion":"HRE","postalCode":"12345","addressCountry":"US"},
+    "openingHoursSpecification":[
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"18:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday"],"opens":"09:00","closes":"16:00"}
+    ],
+    "priceRange":"$$",
+    "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"847"}
+  }
+  </script>
+
+  <!-- ===== JSON-LD: FAQ ===== -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org","@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"How do I book a car service?","acceptedAnswer":{"@type":"Answer","text":"Click 'Book Service', pick your service type, date and time — done in under 2 minutes."}},
+      {"@type":"Question","name":"Do you offer a warranty?","acceptedAnswer":{"@type":"Answer","text":"Yes — 12-month / 12,000-mile warranty on all parts and labor."}},
+      {"@type":"Question","name":"How long does an oil change take?","acceptedAnswer":{"@type":"Answer","text":"About 30–45 minutes including a free multi-point inspection."}}
+    ]
+  }
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%23DC2626'/><text y='.9em' font-size='72' x='12'>🚗</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header id="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Kap<span class="elite">Rich</span></a>
+    <nav id="main-nav">
+      <a href="#services">Services</a>
+      <a href="parts.html">Parts</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-right">
+      <a href="cart.html" class="cart-link" aria-label="Shopping cart">
+        <svg viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="cart-badge" style="display:none;">0</span>
+      </a>
+      <button class="btn btn-red" onclick="document.getElementById('booking-modal').classList.add('open');document.body.style.overflow='hidden'">Book Service</button>
+      <button class="hamburger" aria-label="Menu" onclick="document.getElementById('main-nav').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" aria-label="Hero">
+  <div class="hero-bg" role="img" aria-label="Car engine close-up"></div>
+  <div class="container">
+    <div class="hero-content">
+      <h1>Professional Auto Care<br>You Can Trust</h1>
+      <p>Expert service and quality parts for all makes and models. Schedule your service today.</p>
+      <div class="hero-cta">
+        <button class="btn btn-red btn-lg" onclick="document.getElementById('booking-modal').classList.add('open');document.body.style.overflow='hidden'">Book Your Service</button>
+        <a href="parts.html" class="btn btn-white btn-lg">Browse Parts</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="section section-white" id="services">
+  <div class="container">
+    <div class="section-header">
+      <h2>Our Services</h2>
+      <p>Comprehensive auto care services delivered by certified professionals using state-of-the-art equipment.</p>
+    </div>
+    <div class="services-grid">
+
+      <article class="service-card" itemscope itemtype="https://schema.org/Service">
+        <div class="service-card-img">
+          <img src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Regular Maintenance" loading="lazy">
+        </div>
+        <div class="service-card-body">
+          <h3 itemprop="name">Regular Maintenance</h3>
+          <p itemprop="description">Oil change, filter replacement, and a comprehensive multi-point inspection to keep your vehicle in top condition.</p>
+          <div class="service-card-footer">
+            <span class="service-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+              <meta itemprop="priceCurrency" content="USD">From $<span itemprop="price" content="49.99">49.99</span>
+            </span>
+            <button class="btn btn-navy btn-sm" onclick="openBookingModal('Regular Maintenance')">Book Now</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="service-card" itemscope itemtype="https://schema.org/Service">
+        <div class="service-card-img">
+          <img src="https://images.unsplash.com/photo-1599256871215-571db2b58864?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Brake Service" loading="lazy">
+        </div>
+        <div class="service-card-body">
+          <h3 itemprop="name">Brake Service</h3>
+          <p itemprop="description">Brake pad replacement, rotor inspection, caliper check, and brake fluid top-up for your complete safety.</p>
+          <div class="service-card-footer">
+            <span class="service-price">From $129.99</span>
+            <button class="btn btn-navy btn-sm" onclick="openBookingModal('Brake Service')">Book Now</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="service-card" itemscope itemtype="https://schema.org/Service">
+        <div class="service-card-img">
+          <img src="https://images.unsplash.com/photo-1632098112408-4e4605eaacfb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Engine Diagnostics" loading="lazy">
+        </div>
+        <div class="service-card-body">
+          <h3 itemprop="name">Engine Diagnostics</h3>
+          <p itemprop="description">Advanced OBD-II diagnostics using dealer-level equipment to pinpoint engine and sensor faults accurately.</p>
+          <div class="service-card-footer">
+            <span class="service-price">From $89.99</span>
+            <button class="btn btn-navy btn-sm" onclick="openBookingModal('Engine Diagnostics')">Book Now</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="service-card" itemscope itemtype="https://schema.org/Service">
+        <div class="service-card-img">
+          <img src="https://images.unsplash.com/photo-1617886322168-72b886573c5a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="AC Service" loading="lazy">
+        </div>
+        <div class="service-card-body">
+          <h3 itemprop="name">AC Service & Repair</h3>
+          <p itemprop="description">Refrigerant recharge, leak detection, compressor inspection, and full system performance test.</p>
+          <div class="service-card-footer">
+            <span class="service-price">From $109.99</span>
+            <button class="btn btn-navy btn-sm" onclick="openBookingModal('AC Service')">Book Now</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="service-card" itemscope itemtype="https://schema.org/Service">
+        <div class="service-card-img">
+          <img src="https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Wheel Alignment" loading="lazy">
+        </div>
+        <div class="service-card-body">
+          <h3 itemprop="name">Wheel Alignment</h3>
+          <p itemprop="description">Precision 4-wheel alignment using laser-guided equipment for even tyre wear and straight handling.</p>
+          <div class="service-card-footer">
+            <span class="service-price">From $79.99</span>
+            <button class="btn btn-navy btn-sm" onclick="openBookingModal('Wheel Alignment')">Book Now</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="service-card" itemscope itemtype="https://schema.org/Service">
+        <div class="service-card-img">
+          <img src="https://images.unsplash.com/photo-1603852452515-2dc92776c065?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Battery Service" loading="lazy">
+        </div>
+        <div class="service-card-body">
+          <h3 itemprop="name">Battery Service</h3>
+          <p itemprop="description">Battery test, replacement, terminal clean, and charging system check to keep you reliably on the road.</p>
+          <div class="service-card-footer">
+            <span class="service-price">From $59.99</span>
+            <button class="btn btn-navy btn-sm" onclick="openBookingModal('Battery Service')">Book Now</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+    <div style="text-align:center;margin-top:40px;">
+      <button class="btn btn-red btn-lg" onclick="openBookingModal()">Book Service</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== HOW IT WORKS ===== -->
+<section class="section section-gray">
+  <div class="container">
+    <div class="section-header">
+      <h2>How It Works</h2>
+      <p>Getting your car serviced at KapRich is quick and hassle-free.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Book Online</h3>
+        <p>Schedule your appointment in under 2 minutes through our simple booking form.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Drop Off Your Vehicle</h3>
+        <p>Bring your car in at your scheduled time. We'll walk you through the work to be done.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Pick Up & Drive</h3>
+        <p>We'll notify you when ready. Pay securely and get back on the road with confidence.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FEATURED PARTS ===== -->
+<section class="section section-white" id="parts">
+  <div class="container">
+    <div class="section-header">
+      <h2>Auto Parts</h2>
+      <p>Genuine OEM-quality parts for every make and model at competitive prices.</p>
+    </div>
+    <div class="filters">
+      <button class="filter-btn active" data-cat="all">All</button>
+      <button class="filter-btn" data-cat="engine">Engine</button>
+      <button class="filter-btn" data-cat="brakes">Brakes</button>
+      <button class="filter-btn" data-cat="suspension">Suspension</button>
+      <button class="filter-btn" data-cat="electrical">Electrical</button>
+    </div>
+    <div class="parts-grid">
+
+      <article class="part-card" data-id="p1" data-name="Premium Oil Filter" data-price="12.99" data-cat="engine" data-img="https://images.unsplash.com/photo-1619677137796-8f15861e1531?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" itemscope itemtype="https://schema.org/Product">
+        <div class="part-card-img">
+          <span class="part-cat-badge">Engine</span>
+          <img src="https://images.unsplash.com/photo-1619677137796-8f15861e1531?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Premium Oil Filter" loading="lazy">
+        </div>
+        <div class="part-card-body">
+          <h3 itemprop="name">Premium Oil Filter</h3>
+          <p>OEM-equivalent with anti-drain-back valve. 99% filtration efficiency.</p>
+          <div class="part-card-footer">
+            <span class="part-price">$12.99</span>
+            <button class="add-to-cart">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="part-card" data-id="p2" data-name="Ceramic Brake Pads" data-price="49.99" data-cat="brakes" data-img="https://images.unsplash.com/photo-1486754735734-325b5831c3ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" itemscope itemtype="https://schema.org/Product">
+        <div class="part-card-img">
+          <span class="part-cat-badge">Brakes</span>
+          <img src="https://images.unsplash.com/photo-1486754735734-325b5831c3ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Ceramic Brake Pads" loading="lazy">
+        </div>
+        <div class="part-card-body">
+          <h3 itemprop="name">Ceramic Brake Pads</h3>
+          <p>Low-dust ceramic compound with hardware kit. Fits most sedans & SUVs.</p>
+          <div class="part-card-footer">
+            <span class="part-price">$49.99</span>
+            <button class="add-to-cart">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="part-card" data-id="p3" data-name="Performance Shocks" data-price="79.99" data-cat="suspension" data-img="https://images.unsplash.com/photo-1580274455191-1c62238fa333?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" itemscope itemtype="https://schema.org/Product">
+        <div class="part-card-img">
+          <span class="part-cat-badge">Suspension</span>
+          <img src="https://images.unsplash.com/photo-1580274455191-1c62238fa333?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Performance Shocks" loading="lazy">
+        </div>
+        <div class="part-card-body">
+          <h3 itemprop="name">Performance Shocks</h3>
+          <p>Twin-tube gas-charged shock absorbers for improved handling and comfort.</p>
+          <div class="part-card-footer">
+            <span class="part-price">$79.99</span>
+            <button class="add-to-cart">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="part-card" data-id="p4" data-name="Premium Car Battery" data-price="129.99" data-cat="electrical" data-img="https://images.unsplash.com/photo-1519752594763-2633e52f3bce?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" itemscope itemtype="https://schema.org/Product">
+        <div class="part-card-img">
+          <span class="part-cat-badge">Electrical</span>
+          <img src="https://images.unsplash.com/photo-1519752594763-2633e52f3bce?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Premium Car Battery" loading="lazy">
+        </div>
+        <div class="part-card-body">
+          <h3 itemprop="name">Premium Car Battery</h3>
+          <p>600 CCA AGM battery with 3-year warranty. Fits most passenger vehicles.</p>
+          <div class="part-card-footer">
+            <span class="part-price">$129.99</span>
+            <button class="add-to-cart">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="part-card" data-id="p5" data-name="Platinum Spark Plugs" data-price="29.99" data-cat="engine" data-img="https://images.unsplash.com/photo-1622006578723-e95ff3c9dfa7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" itemscope itemtype="https://schema.org/Product">
+        <div class="part-card-img">
+          <span class="part-cat-badge">Engine</span>
+          <img src="https://images.unsplash.com/photo-1622006578723-e95ff3c9dfa7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Platinum Spark Plugs" loading="lazy">
+        </div>
+        <div class="part-card-body">
+          <h3 itemprop="name">Platinum Spark Plugs (4pc)</h3>
+          <p>Iridium-tipped for reliable ignition up to 100k miles. Improved fuel economy.</p>
+          <div class="part-card-footer">
+            <span class="part-price">$29.99</span>
+            <button class="add-to-cart">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="part-card" data-id="p6" data-name="Slotted Brake Rotors" data-price="89.99" data-cat="brakes" data-img="https://images.unsplash.com/photo-1547730761-8e2e3c550afd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" itemscope itemtype="https://schema.org/Product">
+        <div class="part-card-img">
+          <span class="part-cat-badge">Brakes</span>
+          <img src="https://images.unsplash.com/photo-1547730761-8e2e3c550afd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Slotted Brake Rotors" loading="lazy">
+        </div>
+        <div class="part-card-body">
+          <h3 itemprop="name">Slotted Brake Rotors (2pc)</h3>
+          <p>Cross-drilled vented rotors. Superior heat dissipation & stopping power.</p>
+          <div class="part-card-footer">
+            <span class="part-price">$89.99</span>
+            <button class="add-to-cart">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="part-card" data-id="p7" data-name="Lowering Springs" data-price="159.99" data-cat="suspension" data-img="https://images.unsplash.com/photo-1590759668628-05b0fc34bb70?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" itemscope itemtype="https://schema.org/Product">
+        <div class="part-card-img">
+          <span class="part-cat-badge">Suspension</span>
+          <img src="https://images.unsplash.com/photo-1590759668628-05b0fc34bb70?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Lowering Springs" loading="lazy">
+        </div>
+        <div class="part-card-body">
+          <h3 itemprop="name">Lowering Springs</h3>
+          <p>Progressive rate springs. Lower centre of gravity for improved cornering.</p>
+          <div class="part-card-footer">
+            <span class="part-price">$159.99</span>
+            <button class="add-to-cart">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="part-card" data-id="p8" data-name="New Alternator" data-price="189.99" data-cat="electrical" data-img="https://images.unsplash.com/photo-1535813649-c4959bf2d510?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" itemscope itemtype="https://schema.org/Product">
+        <div class="part-card-img">
+          <span class="part-cat-badge">Electrical</span>
+          <img src="https://images.unsplash.com/photo-1535813649-c4959bf2d510?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="New Alternator" loading="lazy">
+        </div>
+        <div class="part-card-body">
+          <h3 itemprop="name">Remanufactured Alternator</h3>
+          <p>OEM-remanufactured, 100% load-tested. 1-year warranty. 4-cyl compatible.</p>
+          <div class="part-card-footer">
+            <span class="part-price">$189.99</span>
+            <button class="add-to-cart">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+    <div style="text-align:center;margin-top:36px;">
+      <a href="parts.html" class="btn btn-navy btn-lg">Browse All Parts</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section section-gray" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div>
+        <h2 style="font-size:clamp(1.6rem,3vw,2.2rem);font-weight:700;margin-bottom:14px;">Why Choose KapRich?</h2>
+        <p style="color:var(--gray-600);line-height:1.75;font-size:.95rem;">For over 15 years KapRich has been Harare's most trusted auto shop. Our factory-trained technicians, dealer-level equipment, and transparent pricing set us apart.</p>
+        <div class="features-grid">
+          <div class="feature">
+            <div class="feature-icon">🏆</div>
+            <div>
+              <h4>Certified Technicians</h4>
+              <p>ASE-certified mechanics with 10+ years average experience across all makes and models.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">🔬</div>
+            <div>
+              <h4>Advanced Equipment</h4>
+              <p>Dealer-level diagnostic tools and manufacturer-approved repair equipment.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">🛡️</div>
+            <div>
+              <h4>12-Month Warranty</h4>
+              <p>All repairs backed by a 12-month / 12,000-mile parts and labor warranty.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">💰</div>
+            <div>
+              <h4>Competitive Pricing</h4>
+              <p>Honest upfront pricing with no hidden fees. Price-match guarantee available.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-stats">
+        <div class="stat-card"><strong>15+</strong><span>Years Experience</span></div>
+        <div class="stat-card"><strong>12k+</strong><span>Cars Serviced</span></div>
+        <div class="stat-card"><strong>4.9★</strong><span>Google Rating</span></div>
+        <div class="stat-card"><strong>100%</strong><span>Satisfaction</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="section section-white" id="reviews">
+  <div class="container">
+    <div class="section-header">
+      <h2>What Our Customers Say</h2>
+      <p>Trusted by thousands of drivers across Harare and beyond.</p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card" itemscope itemtype="https://schema.org/Review">
+        <div class="stars">★★★★★</div>
+        <blockquote itemprop="reviewBody">"KapRich fixed my brakes the same day I called. The technician explained everything clearly and the price was exactly as quoted. I won't go anywhere else."</blockquote>
+        <div class="reviewer">
+          <div class="avatar" style="background:#6366f1;">MN</div>
+          <div><strong itemprop="author">Munyaradzi Nyandoro</strong><span>Honda Fit Old Shape Owner</span></div>
+        </div>
+      </div>
+      <div class="review-card" itemscope itemtype="https://schema.org/Review">
+        <div class="stars">★★★★★</div>
+        <blockquote itemprop="reviewBody">"Brought my truck in for a strange engine noise. Diagnosed in 30 minutes and fixed by end of day. Their diagnostic equipment is impressive. Highly recommended!"</blockquote>
+        <div class="reviewer">
+          <div class="avatar" style="background:#0ea5e9;">JT</div>
+          <div><strong itemprop="author">Jemima Tapiwanashe</strong><span>Toyota Hillux GD6 Owner</span></div>
+        </div>
+      </div>
+      <div class="review-card" itemscope itemtype="https://schema.org/Review">
+        <div class="stars">★★★★★</div>
+        <blockquote itemprop="reviewBody">"Ordered parts through the website, delivered next day. Fitted at KapRich and saved over $200 vs the dealership. Incredible service and great value!"</blockquote>
+        <div class="reviewer">
+          <div class="avatar" style="background:#DC2626;">SH</div>
+          <div><strong itemprop="author">Sharon Hove</strong><span>Toyota D4D Owner</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section section-gray" id="contact">
+  <div class="container">
+    <div class="section-header">
+      <h2>Contact Us</h2>
+      <p>Have a question? Our friendly team is ready to help.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-details">
+        <h3>Get In Touch</h3>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="c-icon">📍</div>
+            <div><strong>Address</strong><p>123 Budiriro 3, Harare, Hre 12345</p></div>
+          </div>
+          <div class="contact-item">
+            <div class="c-icon">📞</div>
+            <div><strong>Phone</strong><p><a href="tel:+263783249998">+26378 324 9998</a></p></div>
+          </div>
+          <div class="contact-item">
+            <div class="c-icon">✉️</div>
+            <div><strong>Email</strong><p><a href="mailto:service@kaprich.co.zw">service@kaprich.co.zw</a></p></div>
+          </div>
+        </div>
+        <div class="hours">
+          <h4>Business Hours</h4>
+          <div class="hours-row"><span>Monday – Friday</span><span>8:00 AM – 6:00 PM</span></div>
+          <div class="hours-row"><span>Saturday</span><span>9:00 AM – 4:00 PM</span></div>
+          <div class="hours-row"><span>Sunday</span><span style="color:#DC2626;">Closed</span></div>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <h3>Send a Message</h3>
+        <form id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group"><label for="c-name">Full Name *</label><input type="text" id="c-name" placeholder="John Smith" required></div>
+            <div class="form-group"><label for="c-email">Email *</label><input type="email" id="c-email" placeholder="john@example.com" required></div>
+          </div>
+          <div class="form-group">
+            <label for="c-subject">Subject</label>
+            <select id="c-subject">
+              <option value="">Choose a topic...</option>
+              <option>Service Enquiry</option>
+              <option>Parts Order</option>
+              <option>Booking Question</option>
+              <option>Warranty Claim</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group"><label for="c-msg">Message *</label><textarea id="c-msg" rows="4" placeholder="How can we help?" required></textarea></div>
+          <button type="submit" class="btn btn-red btn-full">Send Message</button>
+          <div class="form-success">✓ Message sent! We'll get back to you within 24 hours.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo" style="font-size:1.4rem;font-weight:700;color:#fff;letter-spacing:-.02em;">Kap<span class="elite">Rich</span></a>
+        <p>Harare's premier auto service centre. Professional repairs, genuine parts and unbeatable service since 2009.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="social-link" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="social-link" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="social-link" aria-label="Google"><i class="bi bi-google"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Regular Maintenance</a></li>
+          <li><a href="services.html">Brake Service</a></li>
+          <li><a href="services.html">Engine Diagnostics</a></li>
+          <li><a href="services.html">Wheel Alignment</a></li>
+          <li><a href="services.html">Battery Service</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="parts.html">Buy Parts</a></li>
+          <li><a href="booking.html">Book Service</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p class="contact-line"><a href="tel:+263783249998" style="color:rgba(255,255,255,.5);">+26378 324 9998</a></p>
+        <p class="contact-line"><a href="mailto:service@kaprich.co.zw" style="color:rgba(255,255,255,.5);">service@kaprich.co.zw</a></p>
+        <p class="contact-line" style="margin-top:10px;">123 Budiriro 3<br>Harare, Hre 12345</p>
+        <p class="contact-line" style="margin-top:10px;">Mon–Fri: 8am–6pm<br>Sat: 9am–4pm</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> All rights reserved. | <a href="#" style="color:rgba(255,255,255,.3);">Privacy Policy</a></p>
+      <p>By Munya-BaJemmy</p>
+      <p style="font-size:.78rem;color:rgba(255,255,255,.25);">Designed for the bussinesses of Zimbabwe</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== BOOKING MODAL ===== -->
+<div class="modal-overlay" id="booking-modal" role="dialog" aria-modal="true" aria-label="Book a service">
+  <div class="modal">
+    <div class="modal-head">
+      <h3>Book a Service</h3>
+      <button class="modal-close" onclick="closeBookingModal()" aria-label="Close">✕</button>
+    </div>
+    <form id="booking-form" novalidate>
+      <div class="form-row">
+        <div class="form-group"><label>First Name *</label><input type="text" id="bm-fname" placeholder="John" required></div>
+        <div class="form-group"><label>Last Name *</label><input type="text" id="bm-lname" placeholder="Smith" required></div>
+      </div>
+      <div class="form-group"><label>Email *</label><input type="email" id="bm-email" placeholder="john@example.com" required></div>
+      <div class="form-group"><label>Phone</label><input type="tel" id="bm-phone" placeholder="(555) 000-0000"></div>
+      <div class="form-group">
+        <label>Service Type *</label>
+        <select id="bm-service" required>
+          <option value="">Select a service...</option>
+          <option>Regular Maintenance — $49.99</option>
+          <option>Brake Service — $129.99</option>
+          <option>Engine Diagnostics — $89.99</option>
+          <option>AC Service — $109.99</option>
+          <option>Wheel Alignment — $79.99</option>
+          <option>Battery Service — $59.99</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <div class="form-group"><label>Vehicle Make *</label><input type="text" id="bm-make" placeholder="Toyota" required></div>
+        <div class="form-group"><label>Model *</label><input type="text" id="bm-model" placeholder="Camry" required></div>
+      </div>
+      <div class="form-row">
+        <div class="form-group"><label>Year *</label><input type="number" id="bm-year" placeholder="2020" min="1990" max="2026" required></div>
+        <div class="form-group"><label>Preferred Date *</label><input type="date" id="bm-date" required></div>
+      </div>
+      <div class="form-group">
+        <label>Preferred Time</label>
+        <select>
+          <option>8:00 AM</option><option>9:00 AM</option><option>10:00 AM</option>
+          <option>11:00 AM</option><option>12:00 PM</option><option>1:00 PM</option>
+          <option>2:00 PM</option><option>3:00 PM</option><option>4:00 PM</option>
+        </select>
+      </div>
+      <div class="form-group"><label>Notes</label><textarea rows="3" placeholder="Describe any symptoms or special requests..."></textarea></div>
+      <button type="submit" class="btn btn-red btn-full" style="font-size:1rem;padding:13px;">Confirm Booking</button>
+    </form>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+<script>
+  function openBookingModal(service) {
+    const overlay = document.getElementById('booking-modal');
+    overlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    if (service) {
+      const sel = document.getElementById('bm-service');
+      if (sel) {
+        for (let o of sel.options) {
+          if (o.text.startsWith(service)) { sel.value = o.value; break; }
+        }
+      }
+    }
+  }
+  function closeBookingModal() {
+    document.getElementById('booking-modal').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.getElementById('booking-modal').addEventListener('click', function(e) {
+    if (e.target === this) closeBookingModal();
+  });
+  document.getElementById('booking-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    closeBookingModal();
+    showToast('✓ Booking request submitted! We\'ll confirm shortly.', 'success');
+    this.reset();
+  });
+  // Set min date for booking
+  document.addEventListener('DOMContentLoaded', () => {
+    const d = document.getElementById('bm-date');
+    if (d) d.min = new Date().toISOString().split('T')[0];
+  });
+</script>
+</body>
+</html>

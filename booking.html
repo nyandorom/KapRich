@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Car Service Appointment Online | AutoElite Cartown CT</title>
+  <meta name="description" content="Book your car service appointment at AutoElite online in minutes. Oil change, brake repair, engine diagnostics and more. Same-day slots available in Cartown, CT.">
+  <meta name="keywords" content="book car service online, auto repair appointment, oil change booking, brake service appointment, Cartown CT">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.autoelite.com/booking.html">
+  <meta property="og:title" content="Book a Service — AutoElite">
+  <meta property="og:description" content="Schedule your car service appointment online. Fast and same-day slots available.">
+  <meta property="og:url" content="https://www.autoelite.com/booking.html">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%23DC2626'/><text y='.9em' font-size='72' x='12'>🚗</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Auto<span class="elite">Elite</span></a>
+    <nav id="main-nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="parts.html">Parts</a>
+      <a href="booking.html" class="active">Book Service</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="header-right">
+      <a href="cart.html" class="cart-link" aria-label="Cart">
+        <svg viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="cart-badge" style="display:none;">0</span>
+      </a>
+      <a href="booking.html" class="btn btn-red">Book Service</a>
+      <button class="hamburger" aria-label="Menu" onclick="document.getElementById('main-nav').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="container">
+    <h1>Book a Service Appointment</h1>
+    <p>Fill in the form and we'll confirm your slot within 1 hour.</p>
+    <div class="breadcrumb">
+      <a href="index.html">Home</a><span class="sep">›</span><span>Book Service</span>
+    </div>
+  </div>
+</div>
+
+<section class="section section-gray">
+  <div class="container">
+    <div class="booking-layout">
+      <!-- Form -->
+      <div class="booking-form-wrap">
+        <h2>Schedule Your Visit</h2>
+        <p style="color:#4B5563;margin-bottom:24px;font-size:.92rem;">Fields marked * are required. We'll confirm by email and phone.</p>
+
+        <form id="booking-form" novalidate>
+          <div class="form-section">
+            <h3 style="font-size:.9rem;font-weight:700;border-bottom:2px solid #F3F4F6;padding-bottom:10px;margin-bottom:14px;">Your Information</h3>
+            <div class="form-row">
+              <div class="form-group"><label>First Name *</label><input type="text" placeholder="John" required></div>
+              <div class="form-group"><label>Last Name *</label><input type="text" placeholder="Smith" required></div>
+            </div>
+            <div class="form-row">
+              <div class="form-group"><label>Email *</label><input type="email" placeholder="john@example.com" required></div>
+              <div class="form-group"><label>Phone *</label><input type="tel" placeholder="(555) 000-0000" required></div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h3 style="font-size:.9rem;font-weight:700;border-bottom:2px solid #F3F4F6;padding-bottom:10px;margin-bottom:14px;">Vehicle Details</h3>
+            <div class="form-row">
+              <div class="form-group"><label>Make *</label><input type="text" placeholder="Toyota" required></div>
+              <div class="form-group"><label>Model *</label><input type="text" placeholder="Camry" required></div>
+            </div>
+            <div class="form-row">
+              <div class="form-group"><label>Year *</label><input type="number" placeholder="2020" min="1990" max="2026" required></div>
+              <div class="form-group"><label>Mileage</label><input type="number" placeholder="45000"></div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h3 style="font-size:.9rem;font-weight:700;border-bottom:2px solid #F3F4F6;padding-bottom:10px;margin-bottom:14px;">Service Required</h3>
+            <div class="form-group">
+              <label>Service Type *</label>
+              <select required>
+                <option value="">Select a service...</option>
+                <option>Regular Maintenance — $49.99</option>
+                <option>Brake Service — $129.99</option>
+                <option>Engine Diagnostics — $89.99</option>
+                <option>AC Service & Repair — $109.99</option>
+                <option>Wheel Alignment — $79.99</option>
+                <option>Battery Service — $59.99</option>
+                <option>Other (describe below)</option>
+              </select>
+            </div>
+            <div class="form-group"><label>Notes / Problem Description</label><textarea rows="4" placeholder="e.g. 'Squeaking brakes', 'Check engine light on', 'Need full service before road trip'..."></textarea></div>
+          </div>
+
+          <div class="form-section">
+            <h3 style="font-size:.9rem;font-weight:700;border-bottom:2px solid #F3F4F6;padding-bottom:10px;margin-bottom:14px;">Preferred Appointment</h3>
+            <div class="form-row">
+              <div class="form-group"><label>Date *</label><input type="date" id="b-date" required></div>
+              <div class="form-group">
+                <label>Time *</label>
+                <select required>
+                  <option value="">Select time...</option>
+                  <option>8:00 AM</option><option>9:00 AM</option><option>10:00 AM</option>
+                  <option>11:00 AM</option><option>12:00 PM</option><option>1:00 PM</option>
+                  <option>2:00 PM</option><option>3:00 PM</option><option>4:00 PM</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-red btn-full" style="font-size:1rem;padding:14px;">Confirm Booking Request</button>
+          <p style="font-size:.78rem;color:#9CA3AF;text-align:center;margin-top:10px;"><i class="bi bi-lock-fill"></i> Your information is secure and never shared.</p>
+        </form>
+
+        <div id="booking-success" style="display:none;text-align:center;padding:36px 0;">
+          <div style="font-size:3.5rem;margin-bottom:14px;">✅</div>
+          <h3 style="font-size:1.4rem;margin-bottom:10px;">Booking Request Submitted!</h3>
+          <p style="color:#4B5563;margin-bottom:22px;">We'll confirm your appointment by email and phone within 1 hour during business hours.</p>
+          <a href="index.html" class="btn btn-navy">Back to Home</a>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div>
+        <div class="order-summary" style="margin-bottom:20px;">
+          <h3>Why Book With Us?</h3>
+          <div style="display:flex;flex-direction:column;gap:14px;">
+            <div style="display:flex;gap:12px;align-items:flex-start;">
+              <div style="width:34px;height:34px;background:rgba(220,38,38,.08);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;flex-shrink:0;">⚡</div>
+              <div><strong style="display:block;font-size:.9rem;color:#111827;">Same-Day Availability</strong><span style="font-size:.82rem;color:#4B5563;">Check-in from 8am Mon–Fri, 9am Sat</span></div>
+            </div>
+            <div style="display:flex;gap:12px;align-items:flex-start;">
+              <div style="width:34px;height:34px;background:rgba(220,38,38,.08);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;flex-shrink:0;">🔔</div>
+              <div><strong style="display:block;font-size:.9rem;color:#111827;">Instant Confirmation</strong><span style="font-size:.82rem;color:#4B5563;">Email & call within 1 hour</span></div>
+            </div>
+            <div style="display:flex;gap:12px;align-items:flex-start;">
+              <div style="width:34px;height:34px;background:rgba(220,38,38,.08);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;flex-shrink:0;">💰</div>
+              <div><strong style="display:block;font-size:.9rem;color:#111827;">Upfront Pricing</strong><span style="font-size:.82rem;color:#4B5563;">No hidden fees. Exact quote before work starts.</span></div>
+            </div>
+            <div style="display:flex;gap:12px;align-items:flex-start;">
+              <div style="width:34px;height:34px;background:rgba(220,38,38,.08);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;flex-shrink:0;">🛡️</div>
+              <div><strong style="display:block;font-size:.9rem;color:#111827;">12-Month Warranty</strong><span style="font-size:.82rem;color:#4B5563;">All repairs backed for 12 months / 12k miles</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="order-summary" style="margin-bottom:20px;">
+          <h3>Contact Us Directly</h3>
+          <a href="tel:+15551234567" class="btn btn-navy btn-full" style="margin-bottom:10px;"><i class="bi bi-telephone"></i> (555) 123-4567</a>
+          <a href="mailto:service@autoelite.com" class="btn btn-ghost btn-full"><i class="bi bi-envelope"></i> Email Us</a>
+        </div>
+        <div class="order-summary">
+          <h3>Business Hours</h3>
+          <div class="hours-row"><span>Mon – Fri</span><strong>8:00 AM – 6:00 PM</strong></div>
+          <div class="hours-row"><span>Saturday</span><strong>9:00 AM – 4:00 PM</strong></div>
+          <div style="display:flex;justify-content:space-between;padding:8px 0;font-size:.88rem;"><span>Sunday</span><strong style="color:#DC2626;">Closed</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo" style="font-size:1.4rem;font-weight:700;color:#fff;">Auto<span class="elite">Elite</span></a>
+        <p>Fast, reliable, transparent auto care.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="social-link" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Services</h4><ul>
+        <li><a href="services.html">Maintenance</a></li>
+        <li><a href="services.html">Brake Service</a></li>
+        <li><a href="services.html">Diagnostics</a></li>
+        <li><a href="services.html">Alignment</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Quick Links</h4><ul>
+        <li><a href="parts.html">Buy Parts</a></li>
+        <li><a href="index.html#about">About Us</a></li>
+        <li><a href="index.html#reviews">Reviews</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Contact</h4>
+        <p class="contact-line"><a href="tel:+15551234567" style="color:rgba(255,255,255,.5);">(555) 123-4567</a></p>
+        <p class="contact-line"><a href="mailto:service@autoelite.com" style="color:rgba(255,255,255,.5);">service@autoelite.com</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 AutoElite. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const d = document.getElementById('b-date');
+    if (d) d.min = new Date().toISOString().split('T')[0];
+    document.getElementById('booking-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      if (!this.checkValidity()) { this.reportValidity(); return; }
+      this.style.display = 'none';
+      document.getElementById('booking-success').style.display = 'block';
+      showToast('Booking request submitted!', 'success');
+    });
+  });
+</script>
+</body>
+</html>
